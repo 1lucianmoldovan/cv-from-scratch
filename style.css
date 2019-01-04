@@ -1,3 +1,71 @@
-h1 {
-    color: red;
+body {
+    color: black;
+}
+
+#title {
+    text-align: center;
+}
+
+#name {
+    text-align: right;
+}
+
+#motto {
+    color: green;
+
+}
+img {
+    width: 50px;
+    border-radius: 100%
+}
+
+#header ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    background-color: #334455;
+}
+
+#header li {
+    display:flex;
+}
+
+#header li a {
+    text-decoration: none;
+    padding: 5px 15px 5px 15px;
+    margin: 2px 0 2px 0;
+
+}
+
+#header li a:hover {
+    background-color: #fff;
+    color: #334455;
+
+}
+form label {
+    display: block;
+}
+
+#content-wrap {
+    display: flex;
+}
+
+#content {
+    flex: 1 100%;
+}
+
+.page-block {
+    display: none;
+    background-color: white;
+    padding: 24px;
+    margin: 10px;
+    box-shadow: 0 0 0 1px rgba(0, 0, 0, 0.15), 0 2px 3px rgba(0, 0, 0, 0.2);
+    border-radius: 2px;
+    width: 100%;
+}
+
+#side-bar {
+    padding-right: 10px;
 }
